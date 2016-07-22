@@ -120,6 +120,7 @@ class SpoonPlugin implements Plugin<Project> {
         devices = config.devices
         allDevices = !config.devices
         sequential = config.sequential
+        grantAll = config.grantAll
         noAnimations = config.noAnimations
         failIfNoDeviceConnected = config.failIfNoDeviceConnected
         codeCoverage = config.codeCoverage

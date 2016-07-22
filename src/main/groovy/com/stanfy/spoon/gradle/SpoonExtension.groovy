@@ -50,4 +50,7 @@ class SpoonExtension {
 
   /** Execute the tests device by device */
   boolean sequential
+
+  /** Grant all runtime permissions during installation on Marshmallow and above devices */
+  boolean grantAll
 }

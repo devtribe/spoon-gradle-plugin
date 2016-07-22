@@ -34,8 +34,11 @@ spoon {
   // To run a single method in TestCase
   methodName = 'testMyApp'
 
-  // To execute the tests device by device */
+  // To execute the tests device by device
   sequential = true
+  
+  // To grant all runtime permissions during installation on Marshmallow and above devices
+  grantAll = true
 }
 ```
 
